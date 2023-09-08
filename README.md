@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Gyan Pratap Singh</h1>
 <h3 align="center">A passionate Fulstack web developer from India And MERN intern at WebStack Academy</h3>
 
--   App Demo Link : **_[Swiggy Clone](https://wsa-internship-project-gps.vercel.app/)_**
+-   App Demo Link : **_[Food Ordering GPS](https://wsa-internship-project-gps.vercel.app/)_**
 
 ## Features
 
