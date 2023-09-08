@@ -1,4 +1,4 @@
-<h1 align="center">#WSA Internship Food Ordering Project using React App_</h1>
+<h1 align="center">#WSA Internship Food Ordering Project using MERN</h1>
 <h1 align="center">Hi 👋, I'm Gyan Pratap Singh</h1>
 <h3 align="center">A passionate Fulstack web developer from India And MERN intern at WebStack Academy</h3>
 
