@@ -1,0 +1,42 @@
+.verify-acc-page-wrapper {
+  width: 100%;
+  margin: 8rem 0 0 0;
+  background: #37718e;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .verify-acc-page {
+    height: 50dvh;
+    width: 50%;
+    box-shadow: 0 0 20px #00000056;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    .loading {
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      border: 8px solid var(--color-red);
+      clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 50% 100%);
+      animation: rotate linear 1s infinite;
+    }
+    .text {
+      font-size: 2rem;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

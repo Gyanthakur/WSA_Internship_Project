@@ -1,0 +1,125 @@
+.hotel-card-wrapper {
+  height: 376px;
+  width: 296px;
+  border: 1px solid var(--color-grey);
+  cursor: pointer;
+  padding: 2rem;
+  background: #fff;
+  position: relative;
+
+  &:hover {
+    border: 1px solid var(--color-dark-grey);
+    box-shadow: 0 4px 7px 0 rgba(218, 220, 230, 0.6);
+  }
+  .promotion-tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: rgb(58 60 65);
+
+    .text {
+      color: #fff;
+      padding: 6px 8px;
+      text-transform: uppercase;
+      background: rgb(58, 60, 65);
+    }
+    .style {
+      background: rgb(58, 60, 65);
+      height: 10px;
+      width: 20px;
+      position: absolute;
+      clip-path: polygon(0 0, 100% 0, 100% 100%);
+    }
+  }
+
+  .hotel-card {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 20% 15% 15%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .img-cover {
+      height: 100%;
+      width: 100%;
+      background: var(--color-grey);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-dark-grey);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 5px;
+
+      span {
+        &:first-child {
+          font-size: 1.7rem;
+          font-weight: 600;
+        }
+        &:last-child {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.2rem;
+      border-bottom: 1px solid var(--color-dark-grey);
+
+      span {
+        &:first-child {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          padding: 2px 5px 2px 2px;
+          background: var(--color-yellow);
+
+          .icon {
+            margin: 0 1.5px;
+          }
+        }
+      }
+    }
+
+    .offer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #8a584b;
+      font-weight: 600;
+      font-size: 1.2rem;
+      gap: 1rem;
+
+      .icon {
+        fill: #8a584b;
+      }
+    }
+
+    & > div {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

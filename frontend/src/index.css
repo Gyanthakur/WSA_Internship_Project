@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-red: #fc8019;
+  --color-black: #343a40;
+  --color-carousel: #171a29;
+  --color-header-shadow: #171a2927;
+  --color-black-link: #3d4152;
+  --color-white: #ffffff;
+  --color-grey: #f2f2f2;
+  --color-grey-black: #686b78;
+  --color-dark-grey: #d3d3d3;
+  --color-yellow: #db7c38;
+  --color-green: #48c479;
+  --color-loading-bg: #a7a7a754;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Figtree', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black-link);
+}
+.err {
+  border: 1px solid red !important;
+}
+.swal2-show {
+  font-size: 14px !important;
+}
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}

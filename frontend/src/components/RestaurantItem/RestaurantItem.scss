@@ -1,0 +1,155 @@
+.restaurant-item-wrapper {
+	width: 100%;
+	border-bottom: 0.5px solid #d3d3d3;
+
+	&:last-child {
+		border: none;
+	}
+	.restaurant-item {
+		width: 100%;
+		margin: 2rem 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.info {
+			width: 100%;
+			display: flex;
+			align-items: flex-start;
+			flex-direction: column;
+			justify-content: center;
+
+			.tag {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 2px;
+				color: #ee9c00;
+				font-size: 1.3rem;
+
+				.veg-nonveg-icon {
+					transform: scale(0.1);
+					margin: -7rem;
+				}
+
+				.icon {
+					font-size: 1.5rem;
+				}
+				span {
+					font-weight: 700;
+				}
+			}
+
+			.title {
+				font-size: 1.7rem;
+				font-weight: 600;
+				margin: 0.7rem 0;
+			}
+			.price {
+				font-size: 1.5rem;
+			}
+			.desc {
+				width: 80%;
+				margin: 1rem 0;
+				font-size: 1.3rem;
+				color: var(--color-grey-black);
+			}
+		}
+
+		.img {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			position: relative;
+
+			img {
+				height: 100px;
+				width: 120px;
+				object-fit: cover;
+				border-radius: 10px;
+			}
+			.img-dummy {
+				height: 100px;
+				width: 120px;
+				background: var(--color-grey);
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 1.5rem;
+				color: var(--color-dark-grey);
+				font-weight: 600;
+			}
+			.add-btn {
+				position: absolute;
+				left: 50%;
+				bottom: -5px;
+				transform: translateX(-50%);
+				width: 100px;
+				color: #60b246;
+				background: var(--color-white);
+				border: 1px solid var(--color-dark-grey);
+				box-shadow: 0 2px 5px var(--color-dark-grey);
+				outline: none;
+				border-radius: 5px;
+				font-size: 1.2rem;
+				font-weight: 600;
+				cursor: pointer;
+
+				& > div {
+					height: 100%;
+					width: 100%;
+					padding: 10px 0;
+					background: var(--color-white);
+					border-radius: 5px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border: 1px solid var(--color-dark-grey);
+					box-shadow: 0 2px 5px var(--color-dark-grey);
+				}
+				&:hover {
+					box-shadow: 0 2px 5px #a1a1a1c9;
+				}
+			}
+
+			.controls {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				position: absolute;
+				left: 50%;
+				bottom: -5px;
+				transform: translateX(-50%);
+
+				& > div {
+					background: var(--color-white);
+					border-radius: 5px;
+					display: flex;
+					align-items: center;
+					justify-content: space-evenly;
+					padding: 2px 5px;
+					border: 1px solid var(--color-dark-grey);
+					box-shadow: 0 2px 5px var(--color-dark-grey);
+					span {
+						padding: 5px 10px;
+						font-size: 1.3rem;
+					}
+					.btns {
+						padding: 5px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: green;
+						font-size: 2rem;
+						cursor: pointer;
+					}
+					&:hover {
+						box-shadow: 0 2px 5px #a1a1a1c9;
+					}
+				}
+			}
+		}
+	}
+}

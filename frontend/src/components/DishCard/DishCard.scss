@@ -1,0 +1,211 @@
+.dishcard-wrapper {
+	height: 250px;
+	width: 420px;
+	box-shadow: 0 2px 5px #bebebec9;
+	background: #fafafa;
+	border-radius: 10px;
+	padding: 10px;
+	&:hover {
+		box-shadow: 0 2px 5px #a1a1a1c9;
+	}
+	.dishcard {
+		height: 100%;
+		width: 100%;
+		display: grid;
+		grid-template-rows: 30% 70%;
+		.top {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: var(--color-black);
+			border-bottom: 1px dashed var(--color-dark-grey);
+
+			.left {
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
+				flex-direction: column;
+				gap: 5px;
+				.title {
+					font-size: 1.6rem;
+					font-weight: 700;
+				}
+				.rating {
+					display: flex;
+					align-items: center;
+					justify-content: flex-start;
+					gap: 2rem;
+					font-size: 1.2rem;
+
+					div {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						gap: 2px;
+					}
+				}
+			}
+			.right {
+				cursor: pointer;
+				.icon {
+					font-size: 2.4rem;
+					color: var(--color-grey-black);
+				}
+			}
+		}
+		.bottom {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: var(--color-black);
+
+			.left {
+				width: 100%;
+				.info {
+					width: 100%;
+					display: flex;
+					align-items: flex-start;
+					flex-direction: column;
+					justify-content: center;
+
+					.tag {
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						gap: 2px;
+						color: #ee9c00;
+						font-size: 1.3rem;
+
+						.veg-nonveg-icon {
+							transform: scale(0.1);
+							margin: -7rem;
+						}
+
+						.icon {
+							font-size: 1.5rem;
+						}
+						span {
+							font-weight: 700;
+						}
+					}
+
+					.title {
+						font-size: 1.7rem;
+						font-weight: 600;
+						margin: 0.7rem 0;
+					}
+					.price {
+						font-size: 1.5rem;
+					}
+					.desc {
+						width: 90%;
+						height: 44px;
+						margin: 1rem 0;
+						font-size: 1.2rem;
+						color: var(--color-grey-black);
+						overflow: hidden;
+					}
+				}
+			}
+
+			.right {
+				.img {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-direction: column;
+					position: relative;
+
+					img {
+						height: 100px;
+						width: 120px;
+						object-fit: cover;
+						border-radius: 10px;
+					}
+					.img-dummy {
+						height: 100px;
+						width: 120px;
+						background: var(--color-grey);
+						border-radius: 10px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						font-size: 1.5rem;
+						color: var(--color-dark-grey);
+						font-weight: 600;
+					}
+					.add-btn {
+						position: absolute;
+						left: 50%;
+						bottom: -5px;
+						transform: translateX(-50%);
+						width: 100px;
+						color: #60b246;
+						background: var(--color-white);
+						border: 1px solid var(--color-dark-grey);
+						box-shadow: 0 2px 5px var(--color-dark-grey);
+						outline: none;
+						border-radius: 5px;
+						font-size: 1.2rem;
+						font-weight: 600;
+						cursor: pointer;
+
+						& > div {
+							height: 100%;
+							width: 100%;
+							padding: 10px 0;
+							background: var(--color-white);
+							border-radius: 5px;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							border: 1px solid var(--color-dark-grey);
+							box-shadow: 0 2px 5px var(--color-dark-grey);
+						}
+						&:hover {
+							box-shadow: 0 2px 5px #a1a1a1c9;
+						}
+					}
+
+					.controls {
+						display: flex;
+						align-items: center;
+						justify-content: flex-end;
+						position: absolute;
+						left: 50%;
+						bottom: -5px;
+						transform: translateX(-50%);
+
+						& > div {
+							background: var(--color-white);
+							border-radius: 5px;
+							display: flex;
+							align-items: center;
+							justify-content: space-evenly;
+							padding: 2px 5px;
+							border: 1px solid var(--color-dark-grey);
+							box-shadow: 0 2px 5px var(--color-dark-grey);
+							span {
+								padding: 5px 10px;
+								font-size: 1.3rem;
+							}
+							.btns {
+								padding: 5px;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								color: green;
+								font-size: 2rem;
+								cursor: pointer;
+							}
+							&:hover {
+								box-shadow: 0 2px 5px #a1a1a1c9;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	color: #353535;
+}

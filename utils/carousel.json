@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1136338",
+    "imageId": "rng/md/carousel/production/7b3154ee2430f5c7fb0de6053aee36e9",
+    "action": {
+      "link": "https://www.swiggy.com/collections/91153?collection_id=91153&header_title=Swiggy+Weekends&tags=layout_foodcampaign&type=rcv2",
+      "text": "Tropical_IM",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "FREE DELIVERY",
+      "altTextCta": "ORDER NOW"
+    },
+    "entityId": "swiggy://collectionV2?collection_id=91153&tags=layout_foodcampaign&header_title=Swiggy%20Weekends",
+    "frequencyCapping": {}
+  },
+  {
+    "id": "1116239",
+    "imageId": "rng/md/carousel/production/b4178cc2ecc1ccb1f6b2b0638f609f0f",
+    "action": {
+      "link": "https://www.swiggy.com/collections/90092?collection_id=90092&tags=layout_ux4%2CDISCOUNTING_COUPON_MEGASAVER&type=rcv2",
+      "text": "flat 175",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "flat 175",
+      "altTextCta": "order now"
+    },
+    "entityId": "90092",
+    "frequencyCapping": {}
+  },
+  {
+    "id": "1148762",
+    "imageId": "rng/md/carousel/production/c40975a131e5e49558fb0595eeb8af24",
+    "action": {
+      "link": "http://swiggy.com/menu?restaurant_id=422108&uuid=4ce4489e-a324-4da6-b9a1-a8722e33b63b",
+      "text": "7th Heaven",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "Brands with Offers",
+      "altTextCta": "open"
+    },
+    "entityId": "422108",
+    "frequencyCapping": {},
+    "isManualAds": true
+  },
+  {
+    "id": "1148874",
+    "imageId": "rng/md/carousel/production/55ce0f051c3582998ef6b7732906bd9e",
+    "action": {
+      "link": "http://swiggy.com/menu?restaurant_id=467513&uuid=52227663-aa79-4535-966f-f8099b9e61b6",
+      "text": "Kolkata Biryani",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "Brands with Offers",
+      "altTextCta": "open"
+    },
+    "entityId": "467513",
+    "frequencyCapping": {},
+    "isManualAds": true
+  },
+  {
+    "id": "1148751",
+    "imageId": "rng/md/carousel/production/e063f0ad216a343212d4800de4d8e457",
+    "action": {
+      "link": "http://swiggy.com/menu?restaurant_id=291161&uuid=f867e0f2-48ac-4362-86bf-255a259d48b0",
+      "text": "Momo Nation Cafe",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "Brands with Offers",
+      "altTextCta": "open"
+    },
+    "entityId": "291161",
+    "frequencyCapping": {},
+    "isManualAds": true
+  },
+  {
+    "id": "1063869",
+    "imageId": "rng/md/carousel/production/7004bb67da2bc79145552e05a4605d6e",
+    "action": {
+      "link": "https://www.swiggy.com/collections/89142?collection_id=89142&tags=layout_ux4&type=rcv2",
+      "text": "Restaurants in Focus",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "Restaurants in Focus",
+      "altTextCta": "Order Now"
+    },
+    "entityId": "89142",
+    "frequencyCapping": {}
+  },
+  {
+    "id": "1063611",
+    "imageId": "rng/md/carousel/production/314333c02b705b38eb73c353fa4e5830",
+    "action": {
+      "link": "https://www.swiggy.com/collections/89141?collection_id=89141&tags=layout_ux4&type=rcv2",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "Best of Biryani",
+      "altTextCta": "Order Now"
+    },
+    "entityId": "89141",
+    "frequencyCapping": {}
+  },
+  {
+    "id": "731006",
+    "imageId": "rng/md/carousel/production/7dec1c62b4e539323ea54bae5e152c62",
+    "action": {
+      "link": "https://www.swiggy.com/collections/78542?collection_id=78542&tags=layout_ux4&type=rcv2",
+      "text": "Holi",
+      "type": "WEBLINK"
+    },
+    "entityType": "BANNER",
+    "accessibility": {
+      "altText": "TOP BRANDS TOP OFFERS",
+      "altTextCta": "ORDER NOW"
+    },
+    "entityId": "78542",
+    "frequencyCapping": {}
+  }
+]

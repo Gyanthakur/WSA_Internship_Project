@@ -1,0 +1,144 @@
+.carousel-wrapper {
+	position: relative;
+	width: 100%;
+	background: var(--color-carousel);
+	// z-index: 999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all 0.5s ease-in-out;
+
+	.carousel {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 350px;
+		width: 100%;
+		position: relative;
+		.prev,
+		.next {
+			position: absolute;
+			height: 50px;
+			width: 50px;
+			border-radius: 100%;
+			border: none;
+			outline: none;
+			background: var(--color-white);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 2rem;
+			color: var(--color-carousel);
+			cursor: pointer;
+			z-index: 9;
+		}
+
+		.prev {
+			left: 15%;
+			transform: translateX(-50%);
+			.icon {
+				transition: all 0.2s ease-in-out;
+			}
+
+			&:hover {
+				.icon {
+					transform: translateX(-8px);
+				}
+			}
+		}
+
+		.next {
+			right: 15%;
+			transform: translateX(50%);
+			.icon {
+				transition: all 0.2s ease-in-out;
+			}
+
+			&:hover {
+				.icon {
+					transform: translateX(8px);
+				}
+			}
+		}
+
+		.carousel-box {
+			width: 70%;
+			height: 100%;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			overflow: hidden;
+
+			img {
+				width: 260px;
+				height: 260px;
+				border-radius: 2px;
+				cursor: pointer;
+				transition: transform 0.2s ease-in-out;
+				&:hover {
+					transform: scale(1.05);
+				}
+			}
+		}
+
+		.animation-left {
+			animation: leftAnimate 0.4s ease-out;
+		}
+		.animation-right {
+			animation: rightAnimate 0.4s ease-out;
+		}
+	}
+
+	.all-res {
+		display: none;
+		align-items: center;
+		justify-content: center;
+		margin-top: 3rem;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 1500px) {
+	.carousel-wrapper {
+		background: #fff;
+		width: 70%;
+		margin: auto;
+		.carousel {
+			display: none;
+		}
+		.all-res {
+			display: flex;
+		}
+	}
+}
+@media screen and (max-width: 1300px) {
+	.carousel-wrapper {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 865px) {
+	.carousel-wrapper {
+		width: 90%;
+	}
+}
+
+@keyframes leftAnimate {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-320px);
+	}
+}
+@keyframes rightAnimate {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(320px);
+	}
+}

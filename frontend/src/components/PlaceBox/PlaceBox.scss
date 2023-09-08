@@ -1,0 +1,116 @@
+.place-box {
+  width: 350px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  .icon {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .location {
+    width: 100%;
+    height: 70px;
+    padding: 0 20px;
+    outline: none;
+    border: 1px solid var(--color-dark-grey);
+    background: #fff;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+  input {
+    padding: 0 20px;
+    font-size: 1.8rem;
+    height: 70px;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--color-dark-grey);
+    background: #fff;
+
+    &::placeholder {
+      color: var(--color-dark-grey);
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      transition: background-color 5000s ease-in-out 0s;
+    }
+
+    &:hover {
+      box-shadow: 0 5px 10px #4e4e4e33;
+    }
+    &:disabled {
+      background: #9494949f;
+      cursor: not-allowed;
+    }
+  }
+
+  .loading-animation {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .circle {
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      border: 8px solid var(--color-red);
+      clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 50% 100%);
+      animation: rotate linear 1s infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+  .place-wrapper {
+    width: 100%;
+
+    .place {
+      font-size: 1.5rem;
+      display: grid;
+      grid-template-columns: 30px auto;
+      padding: 2rem 0;
+      gap: 2rem;
+      // border-bottom: 1px dashed var(--color-dark-grey);
+      margin: 2rem 0;
+      cursor: pointer;
+
+      &:hover {
+        .main_text {
+          color: var(--color-red);
+        }
+      }
+
+      .icon {
+        font-size: 2.4rem;
+        align-self: center;
+      }
+      div {
+        height: 100%;
+        width: 100%;
+
+        .main_text {
+          font-size: 1.6rem;
+          font-weight: 600;
+          padding-bottom: 0.5rem;
+        }
+        p {
+          font-size: 1.3rem;
+          color: var(--color-grey-black);
+        }
+      }
+    }
+  }
+}
