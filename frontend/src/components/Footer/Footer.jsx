@@ -79,16 +79,16 @@ const Footer = () => {
         </div>
         <div className="socials">
           <Link to={'https://twitter.com/gps_96169'} target="_blank">
-            <FaTwitter className="icon" />
+            <FaTwitter className="icontw" />
           </Link>
           <Link to={'https://www.linkedin.com/in/gyan-pratap-singh-275785236/'} target="_blank">
-            <FaLinkedinIn className="icon" />
+            <FaLinkedinIn className="iconln" />
           </Link>
           <Link to={'https://www.instagram.com/gp.singh.ro.ckstar4438/'} target="_blank">
-            <FaInstagram className="icon" />
+            <FaInstagram className="iconin" />
           </Link>
           <Link to={'https://github.com/Gyanthakur'} target="_blank">
-            <FaGithub className="icon" />
+            <FaGithub className="icongit" />
           </Link>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './CarouselCard.scss';
+import Logo from "./../../assets/icons/logo2.webp"
 import { GrLinkNext, GrLinkPrevious } from 'react-icons/gr';
 import { IMG_LINK } from '../../utils/config';
 
@@ -71,7 +72,8 @@ const CarouselCard = ({ carousels }) => {
         )}
       </div>
       <a href="#all-restaurants" className="all-res">
-        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/rng/md/carousel/production/faxdufvkcllzse67eqry" />
+        {/* <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/rng/md/carousel/production/faxdufvkcllzse67eqry" /> */}
+        <img src={Logo} className='logoImg' alt="logo"/>
       </a>
     </div>
   );

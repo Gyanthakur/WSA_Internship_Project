@@ -209,8 +209,9 @@ const Header = () => {
             className={({ isActive }) =>
               isActive ? 'nav-bottom-btn active-nav' : 'nav-bottom-btn'
             }>
-            <LogoIconBW className="icon-btm" />
-            <div className="text">Swiggy</div>
+            {/* <LogoIconBW className="icon-btm" /> */}
+            <img src={Logo} className='logoImg' alt="logo"/>
+            <div className="text">Food Ordering</div>
           </NavLink>
           <NavLink
             to={'/search'}

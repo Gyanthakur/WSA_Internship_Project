@@ -404,16 +404,17 @@
 .mobile-bottom-nav {
   position: fixed;
   left: 0;
+  margin-top: 5px;
   bottom: 0;
   height: 65px;
   width: 100%;
   margin: auto;
-  background: #ffffff;
+  background: red;
   z-index: 999999;
   display: none;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid var(--color-dark-grey);
+  border-top: 1px solid var(--color-white);
 
   .nav {
     width: 90%;
@@ -424,12 +425,15 @@
     position: relative;
     .active-nav {
       svg {
-        stroke: var(--color-red);
-        fill: var(--color-red);
+        stroke: var(--color-white);
+        fill: var(--color-white);
       }
       .text {
-        color: var(--color-red) !important;
+        color: var(--color-white) !important;
       }
+    }
+    .logoImg{
+      width: 60px;
     }
     .nav-bottom-btn {
       height: 100%;
@@ -443,7 +447,7 @@
       .icon-btm {
         height: 35%;
         width: 100%;
-        color: var(--color-black-link);
+        color: var(--color-white);
       }
       .tag {
         font-size: 1.2rem;
@@ -456,14 +460,14 @@
         align-items: center;
         justify-content: center;
         border-radius: 100%;
-        background: var(--color-black-link);
-        color: var(--color-white);
+        background: var(--color-white);
+        color: var(--color-black-link);
       }
       .text {
         text-transform: uppercase;
         font-weight: 600;
         font-size: 1.1rem;
-        color: var(--color-grey-black);
+        color: var(--color-white);
       }
     }
   }
@@ -496,7 +500,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #12121d98;
+  background: #1dd02098;
   z-index: 100;
 }
 .signin-side-wrapper {

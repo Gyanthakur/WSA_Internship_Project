@@ -58,9 +58,22 @@
       justify-content: flex-end;
       gap: 2rem;
       a {
-        .icon {
+        .icontw,.icongit,.iconln,.iconin {
           color: #fff;
           font-size: 3rem;
+        }
+        .icontw:hover{
+          color: black;
+        }
+        .iconln:hover{
+          color: blue;
+        }
+        .iconin:hover{
+          color: rgb(255, 0, 51);
+          background-color: whitesmoke;
+        }
+        .icongit:hover{
+          color: black;
         }
       }
     }
@@ -69,8 +82,10 @@
 
 @media screen and (max-width: 1024px) {
   .footer-wrapper {
+    background-color: red;
     .footer {
       height: 200px;
+      margin-bottom: 10px;
       flex-direction: column;
       justify-content: space-evenly;
     }
