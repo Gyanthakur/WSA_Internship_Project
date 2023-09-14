@@ -40,7 +40,7 @@ const Header = () => {
             <Link className="logo-link" to={'/'}>
               <img src={Logo} className='logoImg' alt="logo"/>
             </Link>
-            {/* <div onClick={() => setIsPlaceBoxVisible(true)} className="__left">
+            <div onClick={() => setIsPlaceBoxVisible(true)} className="__left">
               <span className="type">
                 <CiLocationOn className="icon" />
                 {location
@@ -53,7 +53,7 @@ const Header = () => {
                   <VscChevronDown className="icon" />
                 </span>
               </div>
-            </div> */}
+            </div>
           </div>
 
           <div className="nav-links">
