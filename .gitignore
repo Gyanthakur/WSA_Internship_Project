@@ -2,3 +2,4 @@
 .env
 /backend/node_modules
 /frontend/node_modules
+/Ofuscated_Backend/node_modules
